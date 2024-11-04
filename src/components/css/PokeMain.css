@@ -1,0 +1,14 @@
+.pokeMain {
+   margin: 0 auto;
+   width: 720px;
+}
+
+.pokeMainTitle {
+   height: 80px;
+   line-height: 80px;
+   text-align: center;
+   background-color: #608bc1;
+}
+.pokeMainTitle h2 {
+   margin: 0;
+}

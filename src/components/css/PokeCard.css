@@ -1,0 +1,40 @@
+.pokeCard {
+   width: 200px;
+   border: 1px solid silver;
+   border-radius: 10px;
+   margin: 8px;
+   padding: 8px;
+   text-align: center;
+   background-color: #f3f3e0;
+}
+
+.pokeCard img {
+   width: 100%;
+}
+
+.active {
+   filter: grayscale(100%);
+}
+
+.pokeContents p {
+   margin: 4px;
+   height: 30px;
+   line-height: 30px;
+   border: 1px solid silver;
+   border-radius: 4px;
+   background-color: white;
+}
+
+.pokeContents p:first-child {
+   font-weight: bold;
+   background-color: #f3f3f3;
+}
+
+.pokeContents p:nth-child(n + 2) {
+   background-color: #f3f3f3;
+}
+
+.pokeContents p:nth-child(n + 2):hover,
+.pokeCard img:hover {
+   cursor: pointer;
+}
