@@ -2,10 +2,16 @@
    width: 200px;
    border: 1px solid silver;
    border-radius: 10px;
-   margin: 8px;
+   margin: 10px;
    padding: 8px;
    text-align: center;
    background-color: #f3f3e0;
+   color: #363636;
+}
+
+.pokeCard:hover {
+   transition: 0.2s;
+   transform: translateY(-6px);
 }
 
 .pokeCard img {
@@ -14,6 +20,7 @@
 
 .active {
    filter: grayscale(100%);
+   color: gray;
 }
 
 .pokeContents p {
@@ -27,7 +34,7 @@
 
 .pokeContents p:first-child {
    font-weight: bold;
-   background-color: #f3f3f3;
+   background-color: #d5dfd3;
 }
 
 .pokeContents p:nth-child(n + 2) {

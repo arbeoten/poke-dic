@@ -7,8 +7,9 @@
    height: 80px;
    line-height: 80px;
    text-align: center;
-   background-color: #608bc1;
+   background-color: #b5c18e;
 }
 .pokeMainTitle h2 {
+   color: #363636;
    margin: 0;
 }

@@ -24,7 +24,7 @@ function PokeCard({ pokemon, onRemove, onToggle, onEvolution }) {
             />
          </div>
          <div className="pokeContents">
-            <p>{name}</p>
+            <p className={classnames({ active })}>{name}</p>
             <p
                onClick={() => {
                   onEvolution(id)

@@ -5,7 +5,7 @@
 }
 
 .pokeInsert input {
-   background-color: #cbdceb;
+   background-color: #f1f1f1;
    outline: none;
    border: none;
    padding: 0.5rem;
@@ -22,7 +22,7 @@
 .pokeInsert button {
    outline: none;
    border: none;
-   background: #868e96;
+   background: #959799;
    color: white;
    padding-left: 1rem;
    padding-right: 1rem;
